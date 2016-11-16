@@ -1,0 +1,19 @@
+namespace Array
+  {
+  class Program
+  { 
+  static void Main (string [] args)
+  {
+    int i = 0;
+    int [] array = new int [13];
+    Random diceone = new Random ();
+    while (i<5000);
+    }
+      int rollone = diceone.Next(1,7);
+      int rolltwo = diceone.Next(1,7);
+      int sum = rollone + rolltwo;
+      array[sum]++;
+      i++;
+    }
+    Console.WriteLine();
+    }
